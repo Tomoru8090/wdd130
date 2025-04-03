@@ -68,4 +68,15 @@
     width: 100px;
     height: auto;
   }
+
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6); /* 文字をくっきり見せる */
+  }
+  
+  .hero article {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  
   
