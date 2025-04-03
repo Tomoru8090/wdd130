@@ -61,12 +61,11 @@
     padding: 15px;
     border-radius: 8px;
   }
-  
-  /* article 内の画像を右に回り込ませる */
+
   .hero article img {
     float: right;
     margin-left: 10px;
-    width: 100px; /* 好みに応じて調整 */
+    width: 100px;
     height: auto;
   }
   
