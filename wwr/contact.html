@@ -2,6 +2,7 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
+    <meta name="author" content="Tomoru">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Whitewater Rafting Co.</title>
     <meta name="description" content="Get in touch with Whitewater Rafting Co. via phone, email, or the contact form. We'd love to hear from you.">
@@ -55,32 +56,33 @@
         <h2>Send Us a Message</h2>
         <form action="#">
           <label for="username">Name:</label>
-          <input type="text" id="username" name="username" required>
-      
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-      
-          <fieldset>
-            <legend>Purpose of the message:</legend>
-            <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
-            <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
-            <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
-          </fieldset>
-      
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-      
-          <input type="checkbox" id="subscribe" name="subscribe">
-          <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-      
-          <button type="submit">Send Message</button>
+<input type="text" id="username" name="username" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+
+<fieldset>
+  <legend>Purpose of the message:</legend>
+
+  <input type="radio" id="purpose-general" name="purpose" value="general">
+  <label for="purpose-general">General Inquiry</label><br>
+
+  <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+  <label for="purpose-reservation">Reservation Question</label><br>
+
+  <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+  <label for="purpose-suggestion">Website Suggestion</label>
+</fieldset>
+
+<label for="message">Message:</label>
+<textarea id="message" name="message" rows="5" required></textarea>
+
+<input type="checkbox" id="subscribe" name="subscribe">
+<label for="subscribe">Please subscribe me to the monthly newsletter</label>
+<button type="submit">Send Message</button>
         </form>
-      </section>
-      
-
-      
+      </section>      
     </main>
-
     <footer>
       <p>&copy; 2025 Whitewater Rafting Co.</p>
       <div class="social">
