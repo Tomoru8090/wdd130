@@ -79,4 +79,10 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   }
   
+  header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  }
+  
   
