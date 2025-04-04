@@ -9,7 +9,7 @@
 /* ---------------------
   Base Styles
 ---------------------- */
-body {
+body, p {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
@@ -21,10 +21,6 @@ body {
 h1, h2, h3 {
   color: var(--primary-color);
   text-align: center;
-}
-
-p {
-  color: var(--text-color);
 }
 
 /* ---------------------
@@ -47,14 +43,9 @@ header h1 {
   font-size: 1.8rem;
 }
 
-nav, .social {
+nav, nav ul, .social {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
-}
-
-nav ul {
-  display: flex;
   list-style: none;
   gap: 1.5rem;
   margin: 0;
@@ -70,12 +61,12 @@ nav a, nav ul li a {
 /* ---------------------
   Hero Section
 ---------------------- */
-.hero {
+.hero, .hero article {
   position: relative;
   text-align: center;
 }
 
-.hero img {
+.hero img, .hero article img {
   width: 100%;
   height: auto;
   display: block;
@@ -94,7 +85,6 @@ nav a, nav ul li a {
 }
 
 .hero article {
-  position: absolute;
   bottom: 20px;
   left: 20px;
   max-width: 400px;
@@ -108,11 +98,10 @@ nav a, nav ul li a {
   float: right;
   margin-left: 10px;
   width: 100px;
-  height: auto;
 }
 
 /* ---------------------
-  History & Gallery
+  History & Gallery & Employees
 ---------------------- */
 .history-content {
   display: grid;
@@ -179,12 +168,9 @@ footer {
   flex-wrap: wrap;
 }
 
-footer .social img {
+footer .social img, footer .social a img {
   width: 30px;
   height: auto;
-}
-
-footer .social a img {
   border: none;
   display: inline-block;
 }
